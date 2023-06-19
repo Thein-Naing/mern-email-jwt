@@ -316,8 +316,9 @@ client: npm i axios react-router-dom
 
 Now frontend is look like this.
 
-<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/7b7ae9b8-aa9b-4666-89ab-96dc7ccfeaaa">
-<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/fcd01344-35d4-435f-84eb-28ee9dca7dda">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/bd172723-1101-4f7a-baf5-587284567a91">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/a5303d57-63ba-46ef-bd43-d59c37844275">
+
 
 
 

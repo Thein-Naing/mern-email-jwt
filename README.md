@@ -300,3 +300,18 @@ router.post("/", async (req, res) => {
 module.exports = router;
 
 
+
+#
+`[12]` We will start coding frontend/client side.
+
+cd ..
+
+mern-jwt: npx create-react-app client
+
+
+cd client
+
+client: npm i axios react-router-dom
+
+
+

@@ -109,8 +109,11 @@ const validate = (data) => {
       password: Joi.string().passwordComplexity().required().label('Password')
       
   });
+  
   return schema.validate(data);
+  
 };
+
  //then // export to controllers.
 
 module.exports = mongoose.model('User', User)

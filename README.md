@@ -74,10 +74,14 @@ app.listen(PORT, ()=> {
   console.log(`Server is connected on port ${PORT}`)
 })
 
+
+
 `[7]` We have to create models/routes/controllers and first we will create User model. Before we create User model
 we will install jwt and related dependencies like that"
 
 npm i jsonwebtoken joi joi-password-complexity "
+
+
 
 `[8]` //define method for authenticate user using schema.
 

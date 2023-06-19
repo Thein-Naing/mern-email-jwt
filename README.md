@@ -2,7 +2,7 @@
 
 `This is the Login and Singup Email mernstack app using jwt.`
 
-# Notes for clarification of this project.
+# Clarification notes.
 `express : Express is minimal and flexible Node.js web applicaton framework.`
 
 `mongoose : Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.`

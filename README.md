@@ -118,7 +118,7 @@ const validate = (data) => {
 
 module.exports = mongoose.model('User', User)
 
-`[9]. Then we create users.js in routers folder. 
+`[9]`Then we create users.js in routers folder. 
 
 npm i bcrypt for hashing password.
 

@@ -314,4 +314,8 @@ cd client
 client: npm i axios react-router-dom
 
 
+Now frontend is look like this.
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/5f439822-7829-4829-89cd-8216ea81815a">
+
 

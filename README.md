@@ -1,5 +1,20 @@
 # mern-email-jwt
+
 `This is the Login and Singup Email mernstack app using jwt.`
+
+# Notes for clarification of this project.
+`express : Express is minimal and flexible Node.js web applicaton framework.`
+
+`mongoose : Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js.`
+
+`jsonwebtoken : It's a compact URL of representing claims to be transferred between two parties.`
+
+`bcrypt : It's a password hashing function.`
+
+`joi : Joi is an object schema description language and validator for javascript objects.`
+
+`dotenv : It loads environment variables from a .env file.`
+
 
 `[1]` npm init -y
 
@@ -34,12 +49,14 @@ app.use(express.json());
 
 app.use(cors());
 
+//connect mongo database.
 
 mongoose.connect(process.env.MONGO_URI, {
 
-  useNewUrlParser: true,
+  useNewUrlParser: true, // I don't know this word meaning.
   
-  useUnifiedTopology: true
+  useUnifiedTopology: true // I don't know this word meaning.
+  
 })
 .then((req, res) => {
 
@@ -57,5 +74,8 @@ app.listen(PORT, ()=> {
   console.log(`Server is connected on port ${PORT}`)
 })
 
+`[7]` We have to create models/routes/controllers and first we will create User model. Before we create User model
+we will install jwt and related dependencies like that"
 
+npm i jsonwebtoken joi joi-password-complexity "
       

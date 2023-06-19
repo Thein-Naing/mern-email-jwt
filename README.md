@@ -178,5 +178,15 @@ router.post('/', async(req, res) => {
 
 })
 
+`[10]` import routes to server.js and  make middleware.
 
+const userRoutes = require('./routes/users');
+
+const authRoutes = require('./routes/auth');
+
+//routes
+
+app.use('api/users', userRoutes);
+
+app.use('api/auth', authRoutes);
 

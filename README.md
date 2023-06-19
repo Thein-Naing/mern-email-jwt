@@ -78,4 +78,35 @@ app.listen(PORT, ()=> {
 we will install jwt and related dependencies like that"
 
 npm i jsonwebtoken joi joi-password-complexity "
+
+`[8]` //define method for authenticate user using schema.
+
+//also with JWT, we generate token with payload of user id.
+
+User.methods.generateAuthToken = function(){
+
+  const token = jwt.sign({_id: this._id}, process.env.JWTPRIVATE_KEY, {expiresIn: '7d'})
+  
+  return token
+};
+
+//With Joi, we gonna validate data.
+
+const validate = (data) => {
+
+  const schema = Joi.object({
+  
+      firstName: Joi.string().required().label('First Name'),
       
+      lastName: Joi.string().required().label('Last Name'),
+      
+      email: Joi.string().email().required().label('Email'),
+      
+      password: Joi.string().passwordComplexity().required().label('Password')
+      
+  });
+  return schema.validate(data);
+};
+ //then // export to controllers.
+
+module.exports = mongoose.model('User', User)

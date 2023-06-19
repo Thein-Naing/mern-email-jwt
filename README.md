@@ -190,3 +190,4 @@ app.use('api/users', userRoutes);
 
 app.use('api/auth', authRoutes);
 
+`[11]` For more readable code practice, I will split router in Auth.js and users.js.

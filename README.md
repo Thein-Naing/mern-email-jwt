@@ -321,6 +321,22 @@ Now frontend is look like this.
 
 
 `[13]` Update package.json npm i concurrently and set up "dev" for running backend and frontend at the sametime.
+
+update script in package.json:
+
+ "scripts": {
+
+     "test": "echo \"Error: no test specified\" && exit 1",
+     
+    "start": "node server.js",
+    
+    "server":"nodemon server.js",
+    
+    "client":"npm start",
+    
+    "dev":"concurrently \"npm run server \"npm run client\" "
+    
+  },
 my login /signup respond function went errors. I need to fix it.
 
 

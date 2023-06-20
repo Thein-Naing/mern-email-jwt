@@ -320,9 +320,11 @@ Now frontend is look like this.
 <img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/a5303d57-63ba-46ef-bd43-d59c37844275">
 
 
-my login /signup respond function went error. need to fix it.
+`[13]` Update package.json npm i concurrently and set up "dev" for running backend and frontend at the sametime.
+my login /signup respond function went errors. I need to fix it.
 
-<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/dc2c100c-d272-4cd8-a0f1-dc1ae7a96284">
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/8a43ac83-3c8b-4d99-b8e5-0ff71415d580">
 
 
 

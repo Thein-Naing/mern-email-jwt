@@ -320,6 +320,13 @@ Now frontend is look like this.
 <img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/a5303d57-63ba-46ef-bd43-d59c37844275">
 
 
+my login /signup respond function went error. need to fix it.
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/dc2c100c-d272-4cd8-a0f1-dc1ae7a96284">
+
+
+
+
 
 
 

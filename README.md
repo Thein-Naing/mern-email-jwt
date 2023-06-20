@@ -300,3 +300,38 @@ router.post("/", async (req, res) => {
 module.exports = router;
 
 
+
+#
+`[12]` We will start coding frontend/client side.
+
+cd ..
+
+mern-jwt: npx create-react-app client
+
+
+cd client
+
+client: npm i axios react-router-dom
+
+
+Now frontend is look like this.
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/bd172723-1101-4f7a-baf5-587284567a91">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/a5303d57-63ba-46ef-bd43-d59c37844275">
+
+
+`[13]` Update package.json npm i concurrently and set up "dev" for running backend and frontend at the sametime.
+my login /signup respond function went errors. I need to fix it.
+
+
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/8a43ac83-3c8b-4d99-b8e5-0ff71415d580">
+
+
+
+
+
+
+
+
+
+

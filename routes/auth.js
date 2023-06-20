@@ -14,9 +14,8 @@ router.post("/", async (req, res) => {
 			return res.status(401).send({ message: "Invalid Email or Password" });
 
 		const validPassword = await bcrypt.compare(
-			req.body.password,
-			user.password
-		);
+			req.body.password, user.password);
+
 		if (!validPassword)
 			return res.status(401).send({ message: "Invalid Email or Password" });
 
@@ -35,4 +34,4 @@ const validate = (data) => {
 	return schema.validate(data);
 };
 
-module.exports = route
+module.exports = router;

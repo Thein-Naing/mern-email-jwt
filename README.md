@@ -337,10 +337,12 @@ update script in package.json:
     "dev":"concurrently \"npm run server \"npm run client\" "
     
   },
-my login /signup respond function went errors. I need to fix it.
+my login /signup respond function went errors or may be bug. I need to fix it.
 
 
 <img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/8a43ac83-3c8b-4d99-b8e5-0ff71415d580">
+<img width="960" alt="image" src="https://github.com/Thein-Naing/mern-email-jwt/assets/117463446/4d5845dc-0f96-4a57-91c7-cf482adc5cfb">
+
 
 
 
